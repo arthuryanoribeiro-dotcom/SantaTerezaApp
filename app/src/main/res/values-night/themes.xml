@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tema escuro: mantém contraste alto e reduz o consumo de bateria em telas OLED -->
+<resources>
+    <style name="Base.Theme.SantaTereza" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/verde_noite</item>
+        <item name="colorOnPrimary">#003A00</item>
+        <item name="colorPrimaryContainer">#16471A</item>
+        <item name="colorOnPrimaryContainer">@color/verde_claro</item>
+        <item name="colorSecondary">@color/marrom_noite</item>
+        <item name="colorOnSecondary">#462A00</item>
+        <item name="colorSecondaryContainer">#5E3B12</item>
+        <item name="colorOnSecondaryContainer">@color/marrom_claro</item>
+        <item name="colorError">@color/erro_noite</item>
+        <item name="android:colorBackground">@color/fundo_noite</item>
+        <item name="colorSurface">@color/fundo_noite</item>
+        <item name="colorOnSurface">@color/texto_noite</item>
+        <item name="colorOnSurfaceVariant">@color/texto_secundario_noite</item>
+        <item name="android:statusBarColor">@color/fundo_noite</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

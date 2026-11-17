@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="matrizes_contagem">
+        <item quantity="one">%d matriz encontrada</item>
+        <item quantity="other">%d matrizes encontradas</item>
+    </plurals>
+</resources>

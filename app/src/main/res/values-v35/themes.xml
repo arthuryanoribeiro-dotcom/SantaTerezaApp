@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 15+: mantém as barras do sistema fora da área do app (sem edge-to-edge forçado),
+     garantindo que a barra superior e a navegação inferior não fiquem cobertas. -->
+<resources>
+    <style name="Theme.SantaTereza" parent="Base.Theme.SantaTereza">
+        <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
+    </style>
+</resources>

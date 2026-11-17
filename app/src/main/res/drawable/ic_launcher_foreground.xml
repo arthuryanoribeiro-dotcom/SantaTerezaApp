@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cabeça de boi Nelore estilizada: ícone próprio do aplicativo -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path android:fillColor="#24501F" android:pathData="M54,21 A33,33 0 1,1 53.99,21 Z"/>
+    <path android:fillColor="#F3E9D2" android:pathData="M33,40 C27,37 24,31 25.5,24 C29,30 35,33.5 41,34.5 Z"/>
+    <path android:fillColor="#F3E9D2" android:pathData="M75,40 C81,37 84,31 82.5,24 C79,30 73,33.5 67,34.5 Z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M37,42 C32,42 27.5,44 26,47.5 C30,49.5 35,49 38.5,47 Z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M71,42 C76,42 80.5,44 82,47.5 C78,49.5 73,49 69.5,47 Z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M40,33 L68,33 C71,33 72.5,35.5 72,39 L66.5,68 C65.5,75 60.5,80 54,80 C47.5,80 42.5,75 41.5,68 L36,39 C35.5,35.5 37,33 40,33 Z"/>
+    <path android:fillColor="#C9A27A" android:pathData="M45.5,66 C45.5,62 49,60.5 54,60.5 C59,60.5 62.5,62 62.5,66 C62.5,72 59,77 54,77 C49,77 45.5,72 45.5,66 Z"/>
+    <path android:fillColor="#5A3A1A" android:pathData="M48.2,69 A1.8,1.8 0 1,1 51.8,69 A1.8,1.8 0 1,1 48.2,69 Z"/>
+    <path android:fillColor="#5A3A1A" android:pathData="M56.2,69 A1.8,1.8 0 1,1 59.8,69 A1.8,1.8 0 1,1 56.2,69 Z"/>
+    <path android:fillColor="#1B1C18" android:pathData="M43.7,47 A2.3,2.3 0 1,1 48.3,47 A2.3,2.3 0 1,1 43.7,47 Z"/>
+    <path android:fillColor="#1B1C18" android:pathData="M59.7,47 A2.3,2.3 0 1,1 64.3,47 A2.3,2.3 0 1,1 59.7,47 Z"/>
+</vector>

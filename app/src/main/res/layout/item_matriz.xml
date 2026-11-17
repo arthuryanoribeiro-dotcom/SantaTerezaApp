@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cartao"
+    style="@style/Cartao"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="88dp"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <ImageView
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:background="@drawable/fundo_circulo"
+            android:importantForAccessibility="no"
+            android:padding="12dp"
+            android:src="@drawable/ic_matriz"
+            app:tint="?attr/colorOnPrimaryContainer" />
+
+        <LinearLayout
+            android:id="@+id/grupoTexto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+                android:textColor="?attr/colorOnSurface" />
+
+            <TextView
+                android:id="@+id/registro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Texto.Apoio" />
+
+            <TextView
+                android:id="@+id/resumo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Texto.Apoio" />
+        </LinearLayout>
+
+        <!-- Área de toque de 48dp, conforme as diretrizes de acessibilidade -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/botaoFavorito"
+            style="@style/Widget.Material3.Button.IconButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:icon="@drawable/ic_favorite_border"
+            app:iconTint="?attr/colorSecondary" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

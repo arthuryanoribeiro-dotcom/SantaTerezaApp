@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Santa Tereza Nelore</string>
+
+    <!-- Geral -->
+    <string name="cd_logo">Logotipo da Fazenda Santa Tereza: cabeça de boi Nelore</string>
+    <string name="voltar">Voltar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="salvar">Salvar</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="desfazer">Desfazer</string>
+    <string name="tentar_novamente">Tentar novamente</string>
+    <string name="abrir_configuracoes">Abrir configurações</string>
+    <string name="carregando">Carregando…</string>
+    <string name="erro_generico">Algo deu errado. Tente novamente.</string>
+    <string name="sem_app_para_acao">Nenhum aplicativo instalado consegue abrir este conteúdo.</string>
+
+    <!-- Login / Cadastro -->
+    <string name="login_titulo">Bem-vindo à Fazenda Santa Tereza</string>
+    <string name="login_subtitulo">Tradição e inovação genética Nelore. Entre para acessar matrizes, agenda de visitas e o mapa da fazenda.</string>
+    <string name="campo_email">E-mail</string>
+    <string name="campo_senha">Senha</string>
+    <string name="campo_nome">Nome completo</string>
+    <string name="campo_telefone">Telefone (opcional)</string>
+    <string name="campo_cidade">Cidade / UF (opcional)</string>
+    <string name="campo_confirmar_senha">Confirmar senha</string>
+    <string name="campo_senha_atual">Senha atual</string>
+    <string name="campo_nova_senha">Nova senha</string>
+    <string name="dica_senha">Mínimo de 8 caracteres, com letras e números.</string>
+    <string name="dica_telefone">Somente números, com DDD. Ex.: 64999998888</string>
+    <string name="botao_entrar">Entrar</string>
+    <string name="botao_criar_conta">Criar conta</string>
+    <string name="link_criar_conta">Ainda não tem conta? Cadastre-se</string>
+    <string name="cadastro_titulo">Criar conta</string>
+    <string name="cadastro_subtitulo">Todos os campos marcados com * são obrigatórios.</string>
+    <string name="entrando">Verificando suas credenciais…</string>
+    <string name="criando_conta">Criando sua conta…</string>
+
+    <!-- Validações (mensagens claras = usabilidade) -->
+    <string name="erro_obrigatorio">Campo obrigatório.</string>
+    <string name="erro_email_invalido">Digite um e-mail válido, como nome@exemplo.com.</string>
+    <string name="erro_nome_curto">Digite seu nome completo (mínimo de 3 letras).</string>
+    <string name="erro_senha_fraca">A senha precisa ter pelo menos 8 caracteres, com letras e números.</string>
+    <string name="erro_senhas_diferentes">As senhas não são iguais.</string>
+    <string name="erro_telefone">Telefone inválido. Use DDD + número (10 ou 11 dígitos).</string>
+    <string name="erro_login">E-mail ou senha incorretos.</string>
+    <string name="erro_email_em_uso">Este e-mail já está cadastrado.</string>
+    <string name="erro_senha_atual">A senha atual está incorreta.</string>
+    <string name="erro_senha_igual">A nova senha deve ser diferente da atual.</string>
+    <string name="erro_corrija_campos">Corrija os campos destacados.</string>
+
+    <!-- Navegação -->
+    <string name="nav_inicio">Início</string>
+    <string name="nav_matrizes">Matrizes</string>
+    <string name="nav_agenda">Agenda</string>
+    <string name="nav_mapa">Mapa</string>
+    <string name="nav_perfil">Perfil</string>
+
+    <!-- Início -->
+    <string name="inicio_ola">Olá, %1$s!</string>
+    <string name="inicio_slogan">Tradição e inovação genética</string>
+    <string name="clima_titulo">Clima agora na fazenda</string>
+    <string name="clima_local">São Luís de Montes Belos – GO</string>
+    <string name="clima_erro">Não foi possível obter o clima. Verifique sua conexão.</string>
+    <string name="clima_offline">Você está sem internet. Conecte-se para ver o clima.</string>
+    <string name="clima_resumo">%1$s · %2$.0f °C</string>
+    <string name="clima_detalhe">Umidade %1$d%% · Vento %2$.0f km/h · Atualizado às %3$s</string>
+    <string name="clima_cd">Clima na fazenda: %1$s, temperatura de %2$.0f graus, umidade de %3$d por cento, vento de %4$.0f quilômetros por hora.</string>
+    <string name="secao_historia">Nossa história</string>
+    <string name="historia_texto">A Fazenda Santa Tereza, em São Luís de Montes Belos (GO), trabalha há mais de 22 anos com melhoramento genético da raça Nelore. Tudo começou em 2001, em parceria com João Hissassi Yano, a partir de embriões. A família Yano segue esse legado com foco em mansidão do rebanho e valorização da maternidade.</string>
+    <string name="secao_linha_tempo">Linha do tempo</string>
+    <string name="tempo_2001_ano">2001</string>
+    <string name="tempo_2001">Início na pecuária Nelore, com embriões e inseminação artificial.</string>
+    <string name="tempo_2011_ano">2011</string>
+    <string name="tempo_2011">Entrada na ANCP e no PMGZ; aquisição de animais de grandes programas de melhoramento.</string>
+    <string name="tempo_2024_ano">2024</string>
+    <string name="tempo_2024">1º Leilão Matrizes Fazenda Santa Tereza (18/02/2024), transmitido pelo Canal do Boi.</string>
+    <string name="secao_missao">Missão, visão e valores</string>
+    <string name="missao">Missão: superar as expectativas de melhoramento dos clientes, promovendo qualidade superior na criação Nelore.</string>
+    <string name="visao">Visão: transformar a pecuária por meio de avanços genéticos, com acesso a linhagens Nelore de destaque.</string>
+    <string name="valores">Valores: satisfação dos clientes e desenvolvimento do rebanho de quem compra conosco.</string>
+    <string name="secao_contato">Fale com a fazenda</string>
+    <string name="contato_whatsapp">WhatsApp</string>
+    <string name="contato_ligar">Ligar</string>
+    <string name="contato_email">E-mail</string>
+    <string name="contato_instagram">Instagram</string>
+    <string name="contato_site">Site oficial</string>
+    <string name="cd_contato_whatsapp">Conversar com a fazenda pelo WhatsApp</string>
+    <string name="cd_contato_ligar">Ligar para a fazenda: 64 9 9981-8789</string>
+    <string name="cd_contato_email">Enviar e-mail para a fazenda</string>
+
+    <!-- Matrizes -->
+    <string name="matrizes_titulo">Matrizes Nelore</string>
+    <string name="matrizes_aviso">Dados ilustrativos para demonstração. Os registros reais do rebanho devem ser confirmados com a fazenda.</string>
+    <string name="matrizes_buscar">Buscar por nome ou registro</string>
+    <string name="matrizes_filtro_todas">Todas</string>
+    <string name="matrizes_filtro_favoritas">Favoritas</string>
+    <string name="matrizes_vazio">Nenhuma matriz encontrada. Tente outro termo de busca.</string>
+    <string name="matrizes_vazio_favoritas">Você ainda não favoritou nenhuma matriz. Toque no coração para salvar.</string>
+    <string name="matriz_resumo">%1$s · %2$d meses · %3$d kg</string>
+    <string name="matriz_cd_item">Matriz %1$s, registro %2$s, %3$d meses, %4$d quilos. %5$s</string>
+    <string name="favorita">Favorita</string>
+    <string name="nao_favorita">Não favorita</string>
+    <string name="cd_favoritar">Adicionar %1$s às favoritas</string>
+    <string name="cd_desfavoritar">Remover %1$s das favoritas</string>
+    <string name="adicionada_favoritas">%1$s adicionada às favoritas.</string>
+    <string name="removida_favoritas">%1$s removida das favoritas.</string>
+    <string name="detalhe_registro">Registro</string>
+    <string name="detalhe_nascimento">Nascimento</string>
+    <string name="detalhe_peso">Peso</string>
+    <string name="detalhe_pai">Pai</string>
+    <string name="detalhe_mae">Mãe</string>
+    <string name="detalhe_origem">Origem</string>
+    <string name="detalhe_iabcz">iABCZ</string>
+    <string name="detalhe_deca">DECA</string>
+    <string name="detalhe_ouvir">Ouvir descrição</string>
+    <string name="detalhe_parar">Parar leitura</string>
+    <string name="detalhe_interesse">Tenho interesse</string>
+    <string name="detalhe_agendar">Agendar visita para ver</string>
+    <string name="tts_indisponivel">A leitura em voz alta não está disponível neste aparelho.</string>
+    <string name="whatsapp_interesse">Olá! Vi a matriz %1$s (registro %2$s) no app Santa Tereza Nelore e tenho interesse. Podem me passar mais informações?</string>
+
+    <!-- Agenda -->
+    <string name="agenda_titulo">Minhas visitas</string>
+    <string name="agenda_subtitulo">Agende uma visita à fazenda e receba um lembrete no celular.</string>
+    <string name="agenda_vazia">Nenhuma visita agendada. Toque em \"Agendar visita\" para marcar a primeira.</string>
+    <string name="agenda_nova">Agendar visita</string>
+    <string name="agenda_motivo">Motivo da visita *</string>
+    <string name="agenda_obs">Observações (opcional)</string>
+    <string name="agenda_data">Data *</string>
+    <string name="agenda_hora">Horário *</string>
+    <string name="agenda_lembrete">Lembrar com antecedência</string>
+    <string name="agenda_escolher_data">Escolher data</string>
+    <string name="agenda_escolher_hora">Escolher horário</string>
+    <string name="agenda_erro_data_passada">Escolha uma data e horário no futuro.</string>
+    <string name="agenda_salva">Visita agendada para %1$s.</string>
+    <string name="agenda_excluida">Visita excluída.</string>
+    <string name="agenda_excluir_titulo">Excluir visita?</string>
+    <string name="agenda_excluir_msg">O lembrete desta visita também será cancelado.</string>
+    <string name="agenda_excluir">Excluir</string>
+    <string name="agenda_cd_excluir">Excluir visita de %1$s</string>
+    <string name="agenda_status_futura">Agendada</string>
+    <string name="agenda_status_passada">Realizada</string>
+    <string name="agenda_item_cd">Visita: %1$s, em %2$s. Situação: %3$s. Lembrete: %4$s.</string>
+    <string name="agenda_sem_notificacao">As notificações estão desativadas. A visita foi salva, mas você não receberá o lembrete.</string>
+    <string name="agenda_alarme_inexato">Lembretes exatos não estão permitidos; o aviso pode chegar com alguns minutos de diferença.</string>
+
+    <string-array name="motivos_visita">
+        <item>Conhecer as matrizes</item>
+        <item>Negociação / compra</item>
+        <item>Visita técnica</item>
+        <item>Acompanhar leilão</item>
+        <item>Outro</item>
+    </string-array>
+    <string-array name="antecedencias">
+        <item>No horário da visita</item>
+        <item>15 minutos antes</item>
+        <item>1 hora antes</item>
+        <item>1 dia antes</item>
+    </string-array>
+
+    <!-- Mapa -->
+    <string name="mapa_titulo">Mapa da fazenda</string>
+    <string name="mapa_cd">Mapa mostrando a localização da Fazenda Santa Tereza e, se permitido, a sua localização. As mesmas informações estão escritas no painel abaixo do mapa.</string>
+    <string name="mapa_fazenda">Fazenda Santa Tereza</string>
+    <string name="mapa_fazenda_end">São Luís de Montes Belos – GO</string>
+    <string name="mapa_cidade">Centro de São Luís de Montes Belos</string>
+    <string name="mapa_voce">Você está aqui</string>
+    <string name="mapa_minha_localizacao">Minha localização</string>
+    <string name="mapa_centralizar">Ver fazenda</string>
+    <string name="mapa_como_chegar">Como chegar</string>
+    <string name="mapa_buscando">Obtendo sua localização…</string>
+    <string name="mapa_distancia">Você está a %1$s km da fazenda (em linha reta).</string>
+    <string name="mapa_distancia_perto">Você está na fazenda ou muito perto dela!</string>
+    <string name="mapa_sem_permissao">Sem permissão de localização. O mapa mostra apenas a fazenda. Toque em \"Minha localização\" para permitir.</string>
+    <string name="mapa_permissao_negada_sempre">A permissão de localização foi negada. Para calcular a distância, ative-a nas configurações do app.</string>
+    <string name="mapa_rationale">Usamos sua localização apenas quando você toca em \"Minha localização\", para mostrar no mapa e calcular a distância até a fazenda. Ela não é salva nem enviada a ninguém.</string>
+    <string name="mapa_gps_desligado">Não foi possível obter sua localização. Verifique se o GPS/localização do aparelho está ligado.</string>
+    <string name="mapa_aproximada">Localização aproximada (precisão reduzida).</string>
+    <string name="mapa_rotas_titulo">Pontos de referência</string>
+    <string name="permissao_titulo">Permissão necessária</string>
+    <string name="permitir">Permitir</string>
+    <string name="agora_nao">Agora não</string>
+
+    <!-- Perfil -->
+    <string name="perfil_titulo">Meu perfil</string>
+    <string name="cd_foto_perfil">Foto de perfil de %1$s. Toque para alterar.</string>
+    <string name="cd_foto_perfil_vazia">Sem foto de perfil. Toque para adicionar.</string>
+    <string name="perfil_alterar_foto">Alterar foto</string>
+    <string name="perfil_editar">Editar dados</string>
+    <string name="perfil_alterar_senha">Alterar senha</string>
+    <string name="perfil_sair">Sair da conta</string>
+    <string name="perfil_membro_desde">Membro desde %1$s</string>
+    <string name="perfil_sem_telefone">Telefone não informado</string>
+    <string name="perfil_sem_cidade">Cidade não informada</string>
+    <string name="foto_camera">Tirar foto com a câmera</string>
+    <string name="foto_galeria">Escolher da galeria</string>
+    <string name="foto_remover">Remover foto</string>
+    <string name="foto_atualizada">Foto de perfil atualizada.</string>
+    <string name="foto_removida">Foto de perfil removida.</string>
+    <string name="foto_cancelada">Nenhuma foto selecionada.</string>
+    <string name="foto_erro">Não foi possível salvar a foto. Tente outra imagem.</string>
+    <string name="camera_negada">Sem permissão da câmera. Você ainda pode escolher uma foto da galeria.</string>
+    <string name="camera_negada_sempre">A câmera foi bloqueada para este app. Ative a permissão nas configurações para tirar fotos.</string>
+    <string name="camera_rationale">Precisamos da câmera somente para você tirar sua foto de perfil.</string>
+    <string name="camera_indisponivel">Este aparelho não possui câmera disponível.</string>
+    <string name="sair_titulo">Sair da conta?</string>
+    <string name="sair_msg">Você precisará entrar novamente com e-mail e senha.</string>
+    <string name="sair">Sair</string>
+    <string name="editar_titulo">Editar dados</string>
+    <string name="perfil_salvo">Dados atualizados com sucesso.</string>
+    <string name="senha_titulo">Alterar senha</string>
+    <string name="senha_alterada">Senha alterada com sucesso.</string>
+
+    <!-- Notificações -->
+    <string name="canal_lembretes">Lembretes de visita</string>
+    <string name="canal_lembretes_desc">Avisos das visitas agendadas à fazenda</string>
+    <string name="canal_conta">Conta e segurança</string>
+    <string name="canal_conta_desc">Avisos sobre alterações na sua conta</string>
+    <string name="notif_lembrete_titulo">Lembrete de visita – Fazenda Santa Tereza</string>
+    <string name="notif_lembrete_texto">%1$s em %2$s.</string>
+    <string name="notif_boas_vindas_titulo">Conta criada!</string>
+    <string name="notif_boas_vindas_texto">Bem-vindo, %1$s. Explore as matrizes e agende sua visita.</string>
+    <string name="notif_senha_titulo">Sua senha foi alterada</string>
+    <string name="notif_senha_texto">Se não foi você, altere a senha imediatamente.</string>
+    <string name="notif_rationale">Ative as notificações para receber lembretes das suas visitas e avisos de segurança da conta.</string>
+    <string name="notif_negada">Notificações desativadas. Você pode ativá-las depois nas configurações.</string>
+
+    <!-- Complementos -->
+    <string name="campo_nome_obrig">Nome completo *</string>
+    <string name="campo_email_obrig">E-mail *</string>
+    <string name="campo_senha_obrig">Senha *</string>
+    <string name="campo_confirmar_obrig">Confirmar senha *</string>
+    <string name="cd_atualizar_clima">Atualizar clima</string>
+    <string name="secao_leiloes">Leilões</string>
+    <string name="leilao_texto">1º Leilão Matrizes Fazenda Santa Tereza – 18/02/2024 (encerrado), com transmissão pelo Canal do Boi. Acompanhe os próximos leilões pelo Instagram da fazenda.</string>
+    <string name="whatsapp_padrao">Olá! Vim pelo app Santa Tereza Nelore e gostaria de mais informações.</string>
+</resources>

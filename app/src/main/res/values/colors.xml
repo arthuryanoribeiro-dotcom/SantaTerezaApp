@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Paleta inspirada no campo: verde-pasto e marrom-terra.
+     Todas as combinações texto/fundo foram escolhidas com contraste mínimo de 4,5:1 (WCAG AA). -->
+<resources>
+    <color name="verde_pasto">#2E5E2A</color>        <!-- 7,6:1 sobre branco -->
+    <color name="verde_pasto_escuro">#1E3F1B</color>
+    <color name="verde_claro">#C8E6C0</color>
+    <color name="verde_noite">#9BD48F</color>        <!-- 9,6:1 sobre #121412 -->
+    <color name="marrom_terra">#7A4A1E</color>       <!-- 7,4:1 sobre branco -->
+    <color name="marrom_claro">#FFDCC2</color>
+    <color name="marrom_noite">#F0BC8C</color>
+    <color name="creme">#FBF8F2</color>
+    <color name="fundo_noite">#121412</color>
+    <color name="superficie_noite">#1C201B</color>
+    <color name="texto_principal">#1B1C18</color>    <!-- 16:1 sobre creme -->
+    <color name="texto_secundario">#44483F</color>   <!-- 8,9:1 sobre creme -->
+    <color name="texto_noite">#E3E3DC</color>
+    <color name="texto_secundario_noite">#C4C8BC</color>
+    <color name="erro">#B3261E</color>
+    <color name="erro_noite">#F2B8B5</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="preto">#000000</color>
+    <color name="ic_launcher_background">#2E5E2A</color>
+</resources>

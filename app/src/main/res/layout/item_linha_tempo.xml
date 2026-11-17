@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Linha do tempo: ano + descrição lidos juntos pelo TalkBack (screenReaderFocusable) -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"
+    android:focusable="true"
+    android:orientation="horizontal"
+    android:screenReaderFocusable="true">
+
+    <TextView
+        android:id="@+id/ano"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fundo_ano"
+        android:gravity="center"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:textAppearance="@style/TextAppearance.Material3.LabelLarge"
+        android:textColor="?attr/colorOnPrimary" />
+
+    <TextView
+        android:id="@+id/descricao"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_weight="1"
+        android:textAppearance="@style/Texto.Corpo" />
+</LinearLayout>

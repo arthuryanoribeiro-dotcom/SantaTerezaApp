@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.SantaTereza" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/verde_pasto</item>
+        <item name="colorOnPrimary">@color/branco</item>
+        <item name="colorPrimaryContainer">@color/verde_claro</item>
+        <item name="colorOnPrimaryContainer">@color/verde_pasto_escuro</item>
+        <item name="colorSecondary">@color/marrom_terra</item>
+        <item name="colorOnSecondary">@color/branco</item>
+        <item name="colorSecondaryContainer">@color/marrom_claro</item>
+        <item name="colorOnSecondaryContainer">#2C1600</item>
+        <item name="colorError">@color/erro</item>
+        <item name="android:colorBackground">@color/creme</item>
+        <item name="colorSurface">@color/creme</item>
+        <item name="colorOnSurface">@color/texto_principal</item>
+        <item name="colorOnSurfaceVariant">@color/texto_secundario</item>
+        <item name="android:statusBarColor">@color/verde_pasto_escuro</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.SantaTereza" parent="Base.Theme.SantaTereza" />
+
+    <!-- Tema da Splash Screen (androidx.core:core-splashscreen) -->
+    <style name="Theme.SantaTereza.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/verde_pasto</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.SantaTereza</item>
+    </style>
+
+    <!-- Estilos reutilizáveis (tamanhos em sp respeitam a fonte escolhida pelo usuário) -->
+    <style name="Texto.Titulo" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="Texto.Secao" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Texto.Corpo" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:lineSpacingMultiplier">1.15</item>
+    </style>
+
+    <style name="Texto.Apoio" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style>
+
+    <style name="Botao.Principal" parent="Widget.Material3.Button">
+        <item name="android:minHeight">56dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Botao.Contorno" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:minHeight">56dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Campo" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="android:layout_marginTop">12dp</item>
+    </style>
+
+    <style name="Cartao" parent="Widget.Material3.CardView.Elevated">
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="cardCornerRadius">16dp</item>
+    </style>
+
+    <style name="FormaCirculo">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

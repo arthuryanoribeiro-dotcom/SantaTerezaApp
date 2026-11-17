@@ -1,0 +1,11 @@
+TESTES E ERROS – App Santa Tereza Nelore (Avaliação 3 – Programação Mobile / UFMS)
+Aluno: Arthur Ribeiro Yano
+
+Testes_e_Erros_SantaTereza.xlsx
+  - Resumo: contagem de casos aprovados, reprovados e não executados, e de erros corrigidos.
+  - Casos de teste: 50 casos caixa-preta (condição inicial, entrada/ação, resultado esperado,
+    data, resultado obtido e status).
+  - Erros encontrados: erros vistos ao rodar o app no Android Studio e falhas achadas na
+    revisão do código, com causa, correção e verificação.
+
+Ambiente: Android Studio, emulador Pixel 7 (Android 17, API 37).
